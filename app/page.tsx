@@ -100,7 +100,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               className="bg-green-700 hover:bg-green-800 text-white border-green-600 border px-8 py-6 text-lg font-mono"
-              onClick={() => window.open("https://forms.google.com/securinets-join", "_blank")}
+              onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSflT1HJgl3aiCxmrdO4WKBoaTs0SWyRETlmI5YkaIARO8WENg/viewform", "_blank")}
             >
               ./join_community.sh
             </Button>
@@ -302,7 +302,7 @@ export default function Home() {
             </p>
             <Button
               className="bg-green-700 hover:bg-green-800 text-white border-green-600 border px-8 py-6 text-lg font-mono"
-              onClick={() => window.open("https://forms.google.com/securinets-join", "_blank")}
+              onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSflT1HJgl3aiCxmrdO4WKBoaTs0SWyRETlmI5YkaIARO8WENg/viewform", "_blank")}
             >
               sudo ./apply_membership.sh
             </Button>
@@ -380,7 +380,7 @@ export default function Home() {
           <div className="border-t border-green-900/30 mt-8 pt-8 text-center text-gray-400 text-sm">
             <p className="font-mono">
               © {new Date().getFullYear()} Securinets.{" "}
-              <span className="text-green-700">All your base are belong to us.</span>
+              <span className="text-green-700">All your codebase belongs to us.</span>
             </p>
           </div>
         </div>
