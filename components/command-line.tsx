@@ -75,7 +75,7 @@ const CommandLine: React.FC<CommandLineProps> = ({ onClose, inputRef }) => {
 
       case "join":
         setHistory((prev) => [...prev, "Opening join form..."])
-        window.open("https://forms.google.com/securinets-join", "_blank")
+        window.open("hhttps://docs.google.com/forms/d/e/1FAIpQLSflT1HJgl3aiCxmrdO4WKBoaTs0SWyRETlmI5YkaIARO8WENg/viewform", "_blank")
         break
 
       case "clear":
